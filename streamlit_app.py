@@ -18,11 +18,10 @@ import streamlit as st
 load_dotenv()
 
 # Title
-st.set_page_config(page_title="EducatorAI", layout="wide")
+st.set_page_config(page_title="QuirkAI", layout="wide")
 
 # Title and description
-st.title("AI Educator Powered By CrewAI")
-st.markdown("Please provide a text file only")
+st.title("Your Fashion Under Your Control")
 
 # Sidebar
 with st.sidebar:
