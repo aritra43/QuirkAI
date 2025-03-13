@@ -100,7 +100,7 @@ def generate_content(topic):
 if generate_button:
     with st.spinner("Generating Content...This may take a moment.."):
         try:
-            result = generate_content(topic, uploaded_file)
+            result = generate_content(topic)
             if result:
                 st.markdown("### Generated Content")
                 st.markdown(result)
